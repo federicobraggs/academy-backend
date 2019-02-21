@@ -13,7 +13,7 @@ jdk: oraclejdk8
 deploy:
   provider: releases
   api_key: "GITHUB OAUTH TOKEN"
-  file: "artifact-id.apk"
+  file: "artifact-id.jar"
   skip_cleanup: true
   on:
     tags: true
